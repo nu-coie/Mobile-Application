@@ -30,5 +30,5 @@ The `AppBar` widget is a Material Design widget that provides a top app bar. It 
 
 ## Getting Started
 
+<img width="478" alt="Screenshot 2023-10-08 at 6 48 46 PM" src="https://github.com/user-attachments/assets/24fe49be-6a44-46fd-8a73-ce3f2db99103">
 
-![ee](https://github.com/user-attachments/assets/24fe49be-6a44-46fd-8a73-ce3f2db99103)
