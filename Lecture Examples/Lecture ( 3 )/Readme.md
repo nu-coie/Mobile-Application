@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a simple profile page using various Flutter widgets. Below is an overview of the key components used in the app.
 
-This app is the **first part** of the design found [here on Dribbble](https://dribbble.com/shots/24880977-PinSpace-Social-Network-Mobile-App). In the next lectures, we will continue building and complete the remaining parts of the social network mobile app design.
+This app is the **Second part** of the design found [here on Dribbble](https://dribbble.com/shots/24880977-PinSpace-Social-Network-Mobile-App). In the next lectures, we will continue building and complete the remaining parts of the social network mobile app design.
 
 ## Widgets Overview
 
@@ -65,6 +65,33 @@ This app is the **first part** of the design found [here on Dribbble](https://dr
 ### 15. **TextStyle**
 
    The `TextStyle` widget is used to customize the appearance of text, including properties like `fontWeight`, `fontSize`, `fontFamily`, and `color`.
+   **Expanded**
+
+   The `Expanded` widget ensures that a child widget takes up the available width in a `Row` or `Column`. It is used here to make the `Card` widget take the available space.
+
+### 16. **Card**
+
+   The `Card` widget provides a rectangular area with rounded corners and elevation. It’s used here to organize content related to posts, including text, images, and icons.
+
+### 17. **ListTile**
+
+   The `ListTile` widget is a single fixed-height row that typically contains text with leading/trailing widgets, such as an icon or avatar.
+
+### 18. **ClipRRect**
+
+   The `ClipRRect` widget clips its child with a rounded rectangle. It is used here to clip an image into a rectangular shape with rounded corners.
+
+### 19. **Stack**
+
+   The `Stack` widget allows positioning widgets on top of each other. In this case, it's used to position a notification badge over a `CircleAvatar`.
+
+### 20. **Positioned**
+
+   The `Positioned` widget allows you to position a widget within a `Stack` by specifying its position relative to the stack's boundaries.
+
+### 21. **Icons**
+
+   The `Icons` class provides pre-made material design icons. Icons like `add_alert_sharp` and `image_aspect_ratio` are used to visually enhance the app.
 
 ## Getting Started
  
