@@ -1,4 +1,4 @@
-# 🚀 Flutter Profile App 🌟
+# 🚀 Flutter Profile App (Part Two) 🌟
 
 This project demonstrates how to build a simple profile page using various Flutter widgets. Below is an overview of the key components used in the app.
 
@@ -67,4 +67,5 @@ This app is the **first part** of the design found [here on Dribbble](https://dr
    The `TextStyle` widget is used to customize the appearance of text, including properties like `fontWeight`, `fontSize`, `fontFamily`, and `color`.
 
 ## Getting Started
-<img width="478" alt="Screenshot 2024-10-08 at 6 48 46 PM" src="https://github.com/user-attachments/assets/87b70f41-d5ad-4063-94d1-0890afd17781">
+ 
+<img width="478" alt="Screenshot 2024-10-08 at 6 48 46 PM" src="https://github.com/user-attachments/assets/b7c1c874-842f-4adb-b11a-377c95f302eb">
