@@ -1,4 +1,4 @@
-🎹 Flutter Piano App 🎶
+# 🎹 Flutter Piano App 🎶
 
 This project demonstrates how to build a simple piano app using Flutter. Each button in the app represents a piano key, and when pressed, it plays a corresponding sound. The app uses the audioplayers package for sound playback and various Flutter widgets to build the UI.
 
