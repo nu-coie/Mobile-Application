@@ -10,5 +10,6 @@ The entire screen, including the non-plan content, was scrollable since the List
 ## Yousif's Code: 
 By containing the ListView within a Container of fixed height, Yousif's idea makes only the plan section scrollable, leaving the rest of the UI (like the header and buttons) static. This provides a cleaner and more intuitive user experience, where only relevant content is scrollable.
 
+
  
- <img width="442" alt="Screenshot 2023-11-03 at 10 36 31 PM" src="https://github.com/user-attachments/assets/3347e483-d90e-4a59-b5a9-63e77b565a3d">
+ <img width="442" alt="Screenshot 2023-11-03 at 10 36 31 PM" src="https://github.com/user-attachments/assets/c7191507-333f-496e-818e-a43ea26bbf17">
