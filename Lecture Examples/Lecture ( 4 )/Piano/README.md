@@ -29,5 +29,4 @@ To define the logic of key presses, sound handling, and note duration.
 ## 8. Text:
 
 Displays the note names on the keys or instructional text to assist users in playing the piano.
-
-<img width="442" alt="Screenshot 2023-11-03 at 11 18 56 PM" src="https://github.com/nu-coie/Mobile-Applications/assets/107682899/f0174ed3-b422-465a-85a9-2386fdff7c60">
+<img width="442" alt="Screenshot 2023-11-03 at 11 18 56 PM" src="https://github.com/user-attachments/assets/72e3596e-21c0-4535-bca3-bb1de1a04cfa">
