@@ -30,5 +30,4 @@ For vertical alignment of widgets, useful in stacking elements like card informa
 
 Displays information in a clear and readable format, such as credit card numbers, balance, transaction history, and other details.
 
-
-<img width="442" alt="Screenshot 2023-11-03 at 10 36 31 PM" src="https://github.com/nu-coie/Mobile-Applications/assets/107682899/e488900e-8f88-4c64-87c7-1c2d3425a46d">
+<img width="442" alt="Screenshot 2023-11-03 at 10 36 31 PM" src="https://github.com/user-attachments/assets/d0ee471b-eca5-4bc6-a49a-462d5d9f8048">
