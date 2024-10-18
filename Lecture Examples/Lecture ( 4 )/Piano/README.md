@@ -1,12 +1,6 @@
-# Piano App 🎹
+🎹 Flutter Piano App 🎶
 
-An interactive Flutter-based piano app that lets users play piano notes directly from their devices.
-Features
-
-    Play a variety of piano notes by tapping the keys.
-    Realistic sounds for each piano key press.
-    A sleek and simple UI for an immersive musical experience.
-    Ability to play chords and melodies.
+This project demonstrates how to build a simple piano app using Flutter. Each button in the app represents a piano key, and when pressed, it plays a corresponding sound. The app uses the audioplayers package for sound playback and various Flutter widgets to build the UI.
 
 ## Widgets Used
 
