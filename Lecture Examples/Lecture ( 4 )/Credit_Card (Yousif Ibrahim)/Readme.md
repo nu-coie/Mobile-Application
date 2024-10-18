@@ -1,7 +1,5 @@
 # Changes Suggested by Yousif Ibrahim 
 
-A user-friendly Flutter-based application designed to manage Plans efficiently and securely.
-
 This section highlights the key change proposed by Yousif Ibrahim to enhance the functionality and user experience of the app. His improvement focuses on making a specific section of the UI scrollable while keeping the rest of the content static.
 
 Yousif suggested introducing a scrollable area specifically for the list of Plans , while ensuring that other parts of the UI remain static. This is achieved by wrapping the ListView in a Container with a fixed height of 400. As a result, only the Plan  section becomes scrollable, providing a more structured and focused layout.
