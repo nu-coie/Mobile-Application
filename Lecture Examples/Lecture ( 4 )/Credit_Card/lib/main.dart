@@ -14,7 +14,7 @@ void main() {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CircleAvatar(backgroundImage: AssetImage('images/Dash.png'),radius: 20,),
-                  ElevatedButton(onPressed: (){}, style: ElevatedButton.styleFrom(primary: Colors.grey[400],
+                  ElevatedButton(onPressed: (){}, style: ElevatedButton.styleFrom(backgroundColor: Colors.grey[400],
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20.0),) ),
                       child: Row(children: [
