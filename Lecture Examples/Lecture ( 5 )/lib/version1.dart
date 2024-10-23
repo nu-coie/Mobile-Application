@@ -16,11 +16,11 @@ class Version1 extends StatefulWidget {
 class _Version1State extends State<Version1> {
   List<Icon> score = [];
 
-  void displayIcon() {
+  void displayIcon(bool answer) {
     if (obj.EndofQuiz()) {
       bool correctAnswer = obj.GetAnswers();
 
-      if (correctAnswer == true)
+      if (correctAnswer == answer)
       {
         score.add(Icon(
           FontAwesomeIcons.check,
@@ -118,7 +118,7 @@ class _Version1State extends State<Version1> {
                     backgroundColor: Colors.green,
                   ),
                   onPressed: () {
-                    displayIcon();
+                    displayIcon(true);
                   },
                   child: Center(
                       child: Text(
@@ -135,7 +135,7 @@ class _Version1State extends State<Version1> {
                     backgroundColor: Colors.red,
                   ),
                   onPressed: () {
-                    displayIcon();
+                     displayIcon(false);
                   },
                   child: Center(
                       child: Text(
