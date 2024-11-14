@@ -12,7 +12,7 @@ A Flutter-based weather application designed to provide real-time weather inform
 
 ## Weather App. Structure
 
-![BAse](https://github.com/nu-coie/Mobile-Applications/assets/107682899/16732e3c-81c0-4b6f-8b48-2c94ecbd5aeb)
+![BAse](https://github.com/user-attachments/assets/4ba26875-b5a1-4526-bfaa-ef98289cb260)
 
 
 ## Widgets Used
