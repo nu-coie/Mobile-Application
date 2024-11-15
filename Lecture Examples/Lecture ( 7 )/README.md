@@ -35,8 +35,7 @@ Feel free to contribute, report issues, or suggest improvements!
 ## Screenshots
 
 
-
-https://github.com/nu-coie/Mobile-Applications/assets/107682899/3a5da786-80d6-48a1-876d-ac83f72a3f0c
+https://github.com/user-attachments/assets/b92673c7-9a80-4f16-a149-39ab3297c21f
 
 
 
