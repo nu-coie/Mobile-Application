@@ -18,7 +18,7 @@ class LocationService
     }
     else
     {
-      Position position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+      Position position = await Geolocator.getCurrentPosition(locationSettings: LocationSettings(accuracy: LocationAccuracy.high,distanceFilter: 100));
 
       longitude = position.longitude;
       latitude = position.latitude;
