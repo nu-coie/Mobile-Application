@@ -1,6 +1,6 @@
 # Profile App 🚀👤
 
-> **⚠️ NOTE: This version is a draft. In the next lecture, we will improve the app's flow, enhance the code quality (clean code), and introduce additional features. Stay tuned for further improvements!**
+> **⚠️ NOTE: This version is a draft. In the next lecture, we will improve the app's flow, enhance the code quality (clean code)!**
 
 ---
 
@@ -59,18 +59,9 @@ The app utilizes Flutter's powerful widget system and external packages to creat
 5. **Edit Profile Screen**
    - Facilitates real-time editing of user details with live validation.
 
-6. **Home Page**
-   - Serves as the main hub post-login, showing personalized content.
 
 ## Firebase Integration
 
 - **Firebase Authentication**: Handles secure user sign-in and registration processes.
 - **Firebase Realtime Database**: Stores and retrieves user data in real time.
-- **Cloud Firestore** (Optional): Can be used for future expansions like storing additional user preferences or data.
 
-### Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo-link
-   cd profile_app
