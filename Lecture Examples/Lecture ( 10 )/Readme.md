@@ -46,6 +46,9 @@ A Flutter-based application that enables users to explore, search, and interact 
 - Implement offline support using local storage. 📴
 - Improve UI/UX with animations and transitions. 🎨
 
-## License 📜
+## Screenshots
 
-This project is licensed under the [MIT License](LICENSE).
+
+
+https://github.com/user-attachments/assets/66566d3c-8c41-4adb-9524-8f5e405be263
+
