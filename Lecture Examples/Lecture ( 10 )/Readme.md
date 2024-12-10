@@ -50,5 +50,5 @@ A Flutter-based application that enables users to explore, search, and interact 
 
 
 
-https://github.com/user-attachments/assets/66566d3c-8c41-4adb-9524-8f5e405be263
+[Watch the Video](https://github.com/user-attachments/assets/66566d3c-8c41-4adb-9524-8f5e405be263)
 
