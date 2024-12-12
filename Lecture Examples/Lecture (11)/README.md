@@ -32,14 +32,14 @@ Welcome to **Home4Pet**, an app designed to connect people with pets. Whether yo
 - **Google Maps**: For location-based pet information 🗺️.
 ---
 
-## 🚀 Key Files
-## 📂 Features
+## 🚀 Key Files ##
+### 📂 Features
 
-   ### Main App: main.dart
-   ### Authentication: login_screen.dart, registration_screen.dart, welcome_screen.dart
-   ### Pet Management: add_new_animal.dart, animal_details_page.dart, explore_page.dart, favorites_page.dart
-   ### Profile: profile_page.dart, edit_profile.dart
-   ###  Constants and Themes: constant.dart
+   #### Main App: main.dart
+   #### Authentication: login_screen.dart, registration_screen.dart, welcome_screen.dart
+   #### Pet Management: add_new_animal.dart, animal_details_page.dart, explore_page.dart, favorites_page.dart
+   #### Profile: profile_page.dart, edit_profile.dart
+   ####  Constants and Themes: constant.dart
 
 
 ## 📸 Screenshots
