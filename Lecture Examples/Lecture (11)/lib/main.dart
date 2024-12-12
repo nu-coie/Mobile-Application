@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:motion_tab_bar/MotionTabBar.dart';
+import 'splahScreen.dart';
+import 'welcome_screen.dart';
 import 'pet/Home_Page.dart';
 import 'profile_page.dart';
 import 'pet/Favorites_Page.dart';
-import 'welcome_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,18 +18,13 @@ class ProfileApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.teal,
         scaffoldBackgroundColor: Colors.white,
       ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.teal,
-        scaffoldBackgroundColor: Colors.black,
-      ),
-      themeMode: ThemeMode.light,
-      home: AuthChecker(),  
+      home: SplashScreen(),  
     );
   }
 }
@@ -38,11 +34,10 @@ class AuthChecker extends StatelessWidget {
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser;
 
-    
     if (user != null) {
-      return MainTabBarScreen();  
+      return MainTabBarScreen();
     } else {
-      return WelcomeScreen();  
+      return WelcomeScreen();
     }
   }
 }
@@ -67,9 +62,9 @@ class _MainTabBarScreenState extends State<MainTabBarScreen> with TickerProvider
       body: TabBarView(
         controller: _tabController,
         children: [
-          PetHome(),  // Main content for the first tab
-          Profile(),  // Profile tab
-          FavoritesPage(), // Favorites tab
+          PetHome(),
+          Profile(),
+          FavoritesPage(),
         ],
       ),
       bottomNavigationBar: MotionTabBar(
