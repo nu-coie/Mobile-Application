@@ -51,7 +51,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   child: AnimatedTextKit(
                     animatedTexts:
                     [
-                      TypewriterAnimatedText('Welcome to Profile', speed: Duration(milliseconds: 200),),
+                      TypewriterAnimatedText('Home4Pets', speed: Duration(milliseconds: 200),),
                     ],
                     onTap: () {print("Tap Event");},
                   ),
@@ -89,26 +89,3 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*
- void checkUserSignIn() async
-  {
-    final user = FirebaseAuth.instance.currentUser;
-    if (user != null)
-    {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Profile()),);
-      });
-    }
-  }
- */
