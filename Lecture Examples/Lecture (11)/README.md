@@ -44,5 +44,10 @@ Welcome to **Home4Pet**, an app designed to connect people with pets. Whether yo
 
 ## 📸 Screenshots
 
+![pet](https://github.com/user-attachments/assets/3b3506de-c74c-49ab-af33-dbe8b6362194)
+
+
+
+https://github.com/user-attachments/assets/864af38e-c3ae-4cd6-b4af-ee983109fefa
 
 
