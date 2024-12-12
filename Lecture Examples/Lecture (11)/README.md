@@ -1,6 +1,7 @@
-# 🐾 Home4Pet - Find Your Pet Friend! 🏡
-
+# 🐾 Home4Pet - Find Your Pet Friend! 🏡 #
 Welcome to **Home4Pet**, an app designed to connect people with pets. Whether you want to adopt, explore different pets, or manage your pet’s details, **Home4Pet** is here to help. 🐕🐈🐦🐟
+
+
 ---
 
 ## 🌟 Features
