@@ -63,92 +63,67 @@ class _AnimalDetailsPageState extends State<AnimalDetailsPage> {
           // Information Section
           Expanded(
             child: Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(16.0),
-              decoration: kBox,
-              child: ListView(
+                width: double.infinity,
                 padding: const EdgeInsets.all(16.0),
-                children: [
+                decoration: kBox,
+                child: ListView(
+                  padding: const EdgeInsets.all(16.0),
+                  children: [
 
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
 
-                          Text(widget.animalData['name'] ?? "Unknown",style: kPetName),
-                          SizedBox(height: 4),
+                            Text(widget.animalData['name'] ?? "Unknown",style: kPetName),
+                            SizedBox(height: 4),
 
-                          Text("${widget.animalData['distance'] ?? 0} Km Away",style: kDistance,),
+                            Text("${widget.animalData['distance'] ?? 0} Km Away",style: kDistance,),
 
-                        ],
-                      ),
-                      Text("\$${widget.animalData['price'] ?? "0"}", style: kPrice ,),
-                    ],
-                  ),
-                  SizedBox(height: 20),
-
-
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-
-                    children: [
-                      _infoCard("Age", "${widget.animalData['age'] ?? "N/A"} Years", Colors.orange[100]!),
-                      _infoCard("Sex", widget.animalData['sex'] ?? "Unknown", Colors.purple[100]!),
-                      _infoCard("Weight", "${widget.animalData['weight'] ?? "N/A"} Kg", Colors.green[100]!),
-                    ],
-                  ),
-                  SizedBox(height: 20),
+                          ],
+                        ),
+                        Text("\$${widget.animalData['price'] ?? "0"}", style: kPrice ,),
+                      ],
+                    ),
+                    SizedBox(height: 20),
 
 
-                  Text("Pet's Location",style: kPrice,),
-                  SizedBox(height: 20),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+
+                      children: [
+                        _infoCard("Age", "${widget.animalData['age'] ?? "N/A"} Years", Colors.orange[100]!),
+                        _infoCard("Sex", widget.animalData['sex'] ?? "Unknown", Colors.purple[100]!),
+                        _infoCard("Weight", "${widget.animalData['weight'] ?? "N/A"} Kg", Colors.green[100]!),
+                      ],
+                    ),
+                    SizedBox(height: 20),
 
 
-                  Text("About ${widget.animalData['name']}",style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
-                  SizedBox(height: 8),
+                    Text("Pet's Location",style: kPrice,),
+                    SizedBox(height: 20),
 
-                  Text(isExpanded ? fullDescription : truncatedDescription,style: TextStyle(fontSize: 16, color: Colors.grey[700]),),
-                  SizedBox(height: 8),
 
-                  GestureDetector(
-                    onTap: () {
-                      setState(() { isExpanded = !isExpanded;});},
+                    Text("About ${widget.animalData['name']}",style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                    SizedBox(height: 8),
+
+                    Text(isExpanded ? fullDescription : truncatedDescription,style: TextStyle(fontSize: 16, color: Colors.grey[700]),),
+                    SizedBox(height: 8),
+
+                    GestureDetector(
+                      onTap: () {
+                        setState(() { isExpanded = !isExpanded;});},
                       child: Text(isExpanded ? "See Less" : "See More",style: ksee, ),),
 
-              SizedBox(height: 8),
-              Container(
-                margin: EdgeInsets.symmetric(vertical: 16),
-                height: 200,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: Colors.grey[300]!),
-                ),
-                child: GoogleMap(
-                  initialCameraPosition: CameraPosition(
-                    target: LatLng(latitude, longitude),
-                    zoom: 16,
-                  )
-                  ,
-                  markers: {
-                    Marker(
-                      markerId: MarkerId('petLocation'),
-                      position: LatLng(latitude, longitude),
-                      infoWindow: InfoWindow(
-                        title: widget.animalData['name'] ?? "Pet Location",
-                      ),
-                    )
-
-                  },
-                ),
-              ),
+                    SizedBox(height: 8),
+                   
 
 
 
-                ],
-              )
+                  ],
+                )
 
             ),
           ),
