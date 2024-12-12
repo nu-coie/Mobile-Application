@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1054007045980-9qbc4m9cpe26cmpj4eugq4huns7b4ct0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1054007045980-9qbc4m9cpe26cmpj4eugq4huns7b4ct0</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1054007045980-ktll73fli5cqs3dcoce85gase84r8r8h.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB4TkgG_gbPO--PiDxddVJdmxCiwjF-ir4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1054007045980</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cne.profileApp</string>
+	<key>PROJECT_ID</key>
+	<string>fchat-6a080</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fchat-6a080.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1054007045980:ios:506512d7aca0fea96a5b99</string>
+</dict>
+</plist>

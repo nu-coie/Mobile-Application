@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "1054007045980",
+    "project_id": "fchat-6a080",
+    "storage_bucket": "fchat-6a080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054007045980:android:15bea051ac0bbb5f6a5b99",
+        "android_client_info": {
+          "package_name": "com.cne.profile_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054007045980-a4q79cdcm4ja5mgm37fu641psk6o1h6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Oc_Fv2Ws7lwMjLNmYH6eCEVowg2cC9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054007045980-a4q79cdcm4ja5mgm37fu641psk6o1h6g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1054007045980-ou8tbt2e8gqdhpik4g33uef5q9aum0ke.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.coie.draftfirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054007045980:android:eb387a94a17b0b016a5b99",
+        "android_client_info": {
+          "package_name": "com.example.chat2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054007045980-ktll73fli5cqs3dcoce85gase84r8r8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chat2023",
+            "certificate_hash": "33e1ac5c75d851e302d9a2b5a8b2ae83926e3c20"
+          }
+        },
+        {
+          "client_id": "1054007045980-a4q79cdcm4ja5mgm37fu641psk6o1h6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Oc_Fv2Ws7lwMjLNmYH6eCEVowg2cC9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054007045980-a4q79cdcm4ja5mgm37fu641psk6o1h6g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1054007045980-ou8tbt2e8gqdhpik4g33uef5q9aum0ke.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.coie.draftfirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
