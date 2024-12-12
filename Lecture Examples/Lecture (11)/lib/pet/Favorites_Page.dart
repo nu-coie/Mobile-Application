@@ -10,6 +10,8 @@ class FavoritesPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Your Favorites",style: TextStyle(color: Colors.white),),
         backgroundColor: Color(0xff9188e3),
+                automaticallyImplyLeading: false,
+
       ),
       body: FutureBuilder<User?>(
 
